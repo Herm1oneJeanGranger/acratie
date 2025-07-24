@@ -1,0 +1,4 @@
+../s21_grep.c:    for (int i = 0; i < params.pattern_count; i++) {
+../s21_grep.c:  for (int i = optind; i < argc; i++) process_file(argv[i], params, mult_files);
+../Makefile:GG = clang-format -n test1.txt
+../Makefile:GGC = clang-format -i test1.txt
